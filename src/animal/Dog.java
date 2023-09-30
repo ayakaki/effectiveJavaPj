@@ -1,6 +1,6 @@
 package animal;
 
-public class Dog {
+public class Dog implements IAnimal {
 
     private String name;
 
@@ -18,5 +18,9 @@ public class Dog {
 
     public void selfIntro(){
         System.out.println("犬の名前は、" + name + "です。");
+    }
+
+    public void run (){
+        System.out.println("犬が走りました！");
     }
 }

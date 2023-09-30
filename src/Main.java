@@ -7,5 +7,6 @@ public class Main {
         Dog dog = new Dog("Ponta");
         dog.bark();
         dog.selfIntro();
+        dog.run();
     }
 }
