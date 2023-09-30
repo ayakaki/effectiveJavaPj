@@ -5,19 +5,19 @@ public class Dog implements IAnimal {
     private String name;
 
     public Dog(){
-        System.out.println("コンストラクタ処理");
+        System.out.println("トレーナーにつきました！");
     };
 
-    public Dog(String name){
+    public String getName(){
+        return this.name;
+    }
+
+    public void setName(String name){
         this.name = name;
     }
 
     public void bark(){
         System.out.println("Bow!!!");
-    }
-
-    public void selfIntro(){
-        System.out.println("犬の名前は、" + name + "です。");
     }
 
     public void run (){
