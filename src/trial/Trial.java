@@ -16,8 +16,11 @@ public class Trial {
     private final String nameListFullPath = pjPathStr + nameListPath;
 
     public Trial(){
+        // メソッド呼び出し等
         trainer.walkWithDog();
         trainer.makeTrick();
+
+        // ファイル読み込み
         Path path = Paths.get(nameListFullPath);
 
         try {
