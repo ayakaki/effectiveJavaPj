@@ -1,4 +1,4 @@
-package trial.animal;
+package trial_instance.animal;
 
 public class Dog implements IAnimal {
 

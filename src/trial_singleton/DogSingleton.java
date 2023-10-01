@@ -1,4 +1,4 @@
-package singleton_sample;
+package trial_singleton;
 
 public class DogSingleton {
     public static DogSingleton INSTANCE = new DogSingleton();

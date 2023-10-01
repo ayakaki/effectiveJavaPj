@@ -1,6 +1,6 @@
-package trial.person;
+package trial_instance.person;
 
-import trial.animal.Dog;
+import trial_instance.animal.Dog;
 
 public class Trainer implements IPerson{
 

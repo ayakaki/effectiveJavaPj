@@ -1,4 +1,4 @@
-package singleton_sample;
+package trial_singleton;
 
 public class SingletonSampleMain {
     // Dog
