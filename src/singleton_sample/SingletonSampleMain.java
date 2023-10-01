@@ -16,5 +16,7 @@ public class SingletonSampleMain {
         DogSingleton hanako = DogSingleton.INSTANCE;
         hanako.setAge(10);
         System.out.println(hanako.getAge());    // => 10
+        DogSingleton chie = DogSingleton.INSTANCE;
+        System.out.println(chie.getAge());    // => 10
     }
 }
