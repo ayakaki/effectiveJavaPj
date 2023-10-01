@@ -12,6 +12,7 @@ public class Main {
         // Trial trial = new Trial();
         // Item1Main item1Main = new Item1Main();
         // Item2Main();
-        SingletonSampleMain();
+        // SingletonSampleMain();
+        Item3Main();
     }
 }
