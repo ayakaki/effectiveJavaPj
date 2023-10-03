@@ -1,5 +1,6 @@
 import static item3.Item3Main.Item3Main;
 import static trial_enum.TrialEnumMain.TrialEnumMain;
+import static trial_exception.TrialExceptionMain.TrialExceptionMain;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -10,6 +11,7 @@ public class Main {
         // Item2Main();
         // SingletonSampleMain();
         // Item3Main();
-        TrialEnumMain();
+        // TrialEnumMain();
+         TrialExceptionMain();
     }
 }
